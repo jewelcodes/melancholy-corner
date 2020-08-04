@@ -1,0 +1,92 @@
+body {
+    font-family: "SF Pro Display", "Segoe UI", Ubuntu, Tahoma, Verdana, Helvetica, "MS Sans Serif", "Arial", sans-serif;
+    background: #222;
+    color: #000;
+    margin: 0px;
+}
+@media all and (min-width: 1366px), all and (orientation: landscape) {
+    body {
+        margin: 0px 12vw 4vh 12vw !important;
+    }
+}
+a {
+    text-decoration: none;
+    color: rgb(0,162,232);
+}
+a:hover {
+    text-decoration: underline;
+}
+#title {
+    background: rgb(0,162,232);
+    padding: 4vh 0px 4vh 0px;
+}
+
+#model {
+    margin-left: 2vw;
+    font-size: 2.2em;
+    color: #f8f8f8;
+}
+
+#page {
+    font-size: 1.5em;
+    margin-left: 2vw;
+    color: #f4f4f4;
+}
+
+#menu {
+    display: inline-block;
+    width: 100%;
+    list-style: none;
+    background: linear-gradient(rgb(0,162,232), rgb(0,81,116));
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 1.2em;
+}
+
+#menu li {
+    margin: 0px !important;
+    padding: 0px !important;
+    float: left;
+}
+
+#menu li:hover {
+    background: none rgb(0,81,116);
+}
+
+#menu a {
+    display: inline-block;
+    padding: 1.5vw !important;
+    color: #f8f8f8 !important;
+    text-decoration: none !important;
+}
+#content {
+    background: #fff;
+    padding: 1vw;
+}
+h1, h2, h3, p {
+    margin: 0px 0px 1vw 0px;
+    padding: 0px;
+}
+table {
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    width: 90%;
+}
+@media all and (min-width: 1366px), all and (orientation: landscape) {
+    table {
+        width: 60%;
+    }
+}
+tr, td, th {
+    text-align: left;
+    vertical-align: middle;
+}
+td, th {
+    padding: 8px;
+}
+th {
+    width: 40%;
+}
+td {
+    border-left: 1px solid #d8d8d8;
+}

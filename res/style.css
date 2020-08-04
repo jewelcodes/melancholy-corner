@@ -1,0 +1,246 @@
+* {
+    outline: none !important;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+    font-family: "MS Sans Serif", Tahoma, Verdana, "Segoe UI", Arial, sans-serif;
+    font-size: 9pt;
+    line-height: 12pt;
+    margin: 0px;
+    background-color: #00807F;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden !important;
+    cursor: default !important;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    color: #000;
+}
+
+audio {
+    display: none !important;   /* can't emphasize this enough */
+}
+
+/* Win 9x style */
+#window_icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/res/logo.png');
+}
+
+#player_window {
+    min-width: 256px;
+}
+
+table {
+    width: 100%;
+}
+
+table, tr, td {
+    border: 0px !important;
+    border-spacing: 0px !important;
+}
+
+tr {
+    padding: 0px;
+    margin: 0px;
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: underline;
+    color: #000080;
+}
+
+.window {
+    position: absolute;
+    background: none #bfbfbf;
+    border-top: 2px solid #dfdfdf;
+    border-left: 2px solid #dfdfdf;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+}
+
+.window_inner {
+    background: none #bfbfbf;
+    margin: 2px;
+}
+
+.title {
+    background: linear-gradient(to right, #000080, #1084d0) #000080;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+}
+
+.menu_bar {
+    display: flex;
+    font-size: 8pt;
+    margin: 0px !important;
+    padding: 0px !important;
+    list-style: none !important;
+}
+
+.menu_bar li {
+    float: left;
+    margin: 0px !important;
+    padding: 3px 6px 3px 6px !important;
+}
+
+.menu_bar li:hover {
+    background-color: #000080;
+    color: #fff;
+}
+
+.content {
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    padding: 12px;
+}
+
+.status_bar {
+    margin-top: 2px;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    padding: 2px 4px 2px 4px;
+}
+
+#artwork {
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    width: 64px;
+    height: 64px;
+    text-align: left;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-image: url('/res/loading.gif');*/
+    text-align: left;
+    vertical-align: top;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+#song_name {
+    font-size: 10pt;
+    font-weight: 700;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#artist_name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button {
+    width: 90px;
+    color: #000;
+    border-top: 2px solid #dfdfdf;
+    border-left: 2px solid #dfdfdf;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    background: none #bfbfbf;
+    padding: 6px 20px 6px 20px;
+}
+
+button[disabled] {
+    color: #666;
+}
+
+button:active {
+    border-top: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #dfdfdf;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+#settings_window button {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#about_window {
+    width: 40vw;
+}
+
+#maintenance_window {
+    width: 30vw;
+}
+
+@media screen and (max-width: 1279px), screen and (orientation: portrait) {
+    #about_window {
+        width: 85vw !important;
+    }
+
+    #maintenance_window {
+        width: 60vw !important;
+    }
+}
+
+h1 {
+    margin: 0px 0px 8px 0px !important;
+    padding: 0px !important;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+h2 {
+    margin: 0px 0px 8px 0px !important;
+    padding: 0px !important;
+    font-weight: 700;
+    font-size: 1.15em;
+}
+
+p {
+    margin: 0px 0px 10px 0px !important;
+    padding: 0px !important;
+}
+
+.button_container {
+    text-align: right;
+    margin-top: 2px;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 12px;
+}
+
+#settings_window {
+    min-width: 256px;
+    max-width: 320px;
+}
+
+.source {
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
