@@ -1,5 +1,9 @@
-Melancholy Corner is what they'd call an online radio station that really just broadcasts whatever I play on Spotify. It's a way for me to share music while also engage in responsive web design. I use icecast2 and darkice for streaming.
+**[Melancholy Corner](https://melancholy.xyz)** is an online radio station that broadcasts vaporwave and lo-fi music, making you ascend to heaven wherever you are. It uses pure HTML/CSS to mimic the Windows 95/98 look and feel as well, to truly take you back to the past.
 
-## Screenshots
-![Player screen](https://i.imgur.com/coolDZ0.png)
-![Background 1](https://i.imgur.com/pbpPbbO.png)
+## Screenshot
+![Main screen](https://i.imgur.com/j1EAmX8.png)
+
+## Support
+If you like what you're seeing, please consider [donating to our Patreon](https://www.patreon.com/melancholycorner). Renting the web server unfortunately costs money and we would greatly appreciate any support you can give, no matter how small!
+
+Thank you~
